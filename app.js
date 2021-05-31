@@ -15,11 +15,22 @@ else{
   document.write("please enter your age");
 }
 */
+
+
+function done(){
+
+
 var userName = prompt("Please enter your name ");
 while(userName === ' ' || !isNaN(userName)){
   userName = prompt("Please enter your name ");
 }
-var userNumber = prompt("Enter the number of the images do you want to see ");
+
+
+
+var userNumber = prompt("Enter the number of the images do you want to see about the amazing  places in jordan ");
 for(var i=0 ; i<userNumber; i++){
-  document.write('<img src= "https://i2.wp.com/www.annuair.ma/wp-content/uploads/2021/03/html-cours-gratuit.jpg?fit=590%2C320&ssl=1"/>');
+  document.write('<img src= "https://universes.art/fileadmin/_migrated/gridelement_uploads/mobile/Petra-Ad-Deir-IMG_0609-800-700-2_01.jpg"/>');
 }
+}
+
+done();
